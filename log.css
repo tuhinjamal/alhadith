@@ -1,0 +1,193 @@
+body{
+	background-color: #ECF0F1;
+	width: 700px;
+	height: 500px;
+	
+	
+}
+
+
+
+.frame{
+	width: 350px;
+	height: 150px;
+	background-color: #F9EBEA  ;
+	border-radius: 20px;
+	position: absolute;
+	//position: relative;
+	left: 450px;
+	top: 200px;
+	text-align:center;
+	padding: 100px 80px;
+	align-self: center;
+	font-weight: bold;
+	border-radius: 0px 20px;
+}
+.home{
+	width: 400px;
+	height: 400px;
+	background-color: red;
+	border-radius: 200px;
+	position: absolute;
+	//position: relative;
+	left: 550px;
+	top: 200px;
+	text-align:center;
+	//padding: 100px 80px;
+	align-self: center;
+	font-weight: bold;
+	//border-radius: 400px 100px;
+}
+.txt1{
+	width: 400px;
+	height: 400px;
+	
+	
+	position: absolute;
+	//position: relative;
+	left: 600px;
+	top: 250px;
+	text-align:center;
+	font-weight: bold;
+	
+	
+
+
+}
+
+.signout{
+position: absolute;
+	left: 580px;
+	top: 450px;
+	width: 200px;
+	height: 20px;
+  background-color: #D4E6F1 ;
+  border-radius: 50px;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  //display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+
+
+	
+}
+.sign{
+position: relative;
+	left: 550px;
+	top: 480px;
+	width: 100px;
+	height: 50px;
+  background-color: #D4E6F1 ;
+  border-radius: 20px;
+  color: black;
+  
+  text-align: center;
+  
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+
+
+	
+}
+	
+.box_two{
+	
+	width: 350px;
+	height: 150px;
+	background-color: #F9EBEA  ;
+	border-radius: 20px;
+	position: absolute;
+	//position: relative;
+	left: 450px;
+	top: 200px;
+	text-align:center;
+	padding: 100px 80px;
+	align-self: center;
+	font-weight: bold;
+	border-radius: 0px 20px;
+	
+}
+.sub{
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	//position: relative;
+	left: 75px;
+	top: 200px;
+
+}
+.sub input{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	//position: relative;
+	left: 550px;
+	top: 200px;
+	border-radius: 50px;
+
+}
+.reg{
+	float: left;
+	width: 500px;
+	height: 50px;
+	position: absolute;
+	//position: relative;
+	left: 580px;
+	top: 500px;
+	border-radius: 50px;
+
+
+}
+
+.username{
+	float: left;
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	//position: relative;
+	left: 30px;
+	top: 100px;
+	border-radius: 50px;
+
+}
+
+.pass{
+	float: left;
+	width: 100px;
+	height: 50px;
+	font-weight: bold;
+	position: absolute;
+	//position: relative;
+	left: 532px;
+	top: 350px;
+	border-radius: 50px;
+
+
+}
+
+
+.adm{
+
+position: absolute;
+	left: 580px;
+	top: 400px;
+	width: 200px;
+	height: 20px;
+  background-color: #D4E6F1 ;
+  border-radius: 50px;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  //display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+
+
+}
+
+
