@@ -1,13 +1,12 @@
 <?php
  
- define('HOST', 'd9c88q3e09w6fdb2.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
- define('USER', 'p9wewa98seoq61h7');
- define('PASS', 'v7egttnixs1moltw');
- define('DB', '	w6zhk8zubyoju7p6');
+$host_name='d9c88q3e09w6fdb2.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+$user_name='p9wewa98seoq61h7';
+$password='v7egttnixs1moltw';
+$db_name='w6zhk8zubyoju7p6';
 
+   $connection=mysqli_connect($host_name,$user_name,$password);
 
- $connection = mysqli_connect(HOST, USER, PASS, DB);
- 
 if ($connection) {
  				$db_select=mysqli_select_db($connection,DB);
  					if ($db_select) {
