@@ -22,7 +22,7 @@ if ($connection) {
  					}
  				# code...
  			}else{
-
+        echo($db_name."<br>".$password."<br>".$user_name);
  						die('Database connection Fail'. mysqli_error($connection));
  					}
  
